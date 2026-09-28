@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A 3x3 letter grid with a highlighted diagonal "found word" capsule. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- found-word capsule -->
+    <path
+        android:strokeColor="#FFC857"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.55"
+        android:pathData="M36,36 L72,72" />
+    <!-- letter dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,36 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0
+            M54,36 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0
+            M72,36 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0
+            M36,54 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0
+            M54,54 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0
+            M72,54 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0
+            M36,72 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0
+            M54,72 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0
+            M72,72 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
+</vector>
